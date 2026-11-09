@@ -1,4 +1,4 @@
-# resumen-caso-clinico # Resumen de caso clínico — Skill de IA para médicos
+# Resumen de caso clínico — Skill de IA para médicos
 
 ### Una herramienta práctica para organizar información clínica con inteligencia artificial
 
