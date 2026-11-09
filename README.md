@@ -2,6 +2,8 @@
 
 ### Una herramienta práctica para organizar información clínica con inteligencia artificial
 
+![Antes y después: caso ficticio](IA%20en%20la%20consulta%20m%C3%A9dica_%20antes%20y%20despu%C3%A9s.png)
+
 **Autor:** Oswaldo Retto — Médico especialista en Aparato Digestivo.
 
 ## ¿Qué es?
@@ -28,7 +30,7 @@ Está diseñada principalmente para Gastroenterología, aunque su estructura pue
 ## ¿Cómo utilizarla?
 
 1. Descargar el archivo `SKILL.md` del repositorio.
-2. Incorporarlo a las Habilidades de Claude o ChatGPT, siguiendo las opciones de importación disponibles en cada plataforma.
+2. En Claude: Ajustes, apartado de skills, subir el archivo. En ChatGPT: adjuntar `SKILL.md` en un chat nuevo y pedir que cree la Habilidad sin cambiar nada.
 3. Introducir un caso clínico ficticio o información clínica adecuadamente anonimizada, respetando las políticas de protección de datos del centro.
 4. Revisar el resumen generado antes de utilizarlo.
 
@@ -40,7 +42,7 @@ La herramienta se ha evaluado inicialmente con **10 casos clínicos ficticios**,
 
 Las pruebas examinan la organización de información, las conversiones de unidades, el formato de las analíticas, la detección de datos identificativos y el comportamiento ante información insuficiente.
 
-Los resultados iniciales comunicados fueron satisfactorios, con algunos detalles menores de formato.
+Resultado: 10 de 10 casos con el comportamiento esperado; dos detalles menores de formato.
 
 Los casos y el informe están documentados en `casos-de-prueba.md`.
 
@@ -69,4 +71,4 @@ Su objetivo es mostrar que los médicos asistenciales, incluso sin conocimientos
 
 ## Licencia
 
-Licencia de uso pendiente de definir. Hasta entonces, el acceso público al repositorio no implica autorización general para redistribuir o modificar su contenido.
+Este proyecto se distribuye bajo licencia [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](LICENSE). Puede usarse y adaptarse libremente citando al autor.
